@@ -14,4 +14,45 @@
 
     @mixin text-preset-1 {
         font-family: $font-family;
+        font-size: 2.25rem;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: 0.0016rem;
+        color: $grey-500;
+    }
+
+        @mixin text-preset-2 {
+        font-family: $font-family;
+        font-size: 2.25rem;
+        font-weight: 200;
+        line-height: 140%;
+        letter-spacing: 0.0016rem;
+        color: $grey-500;
+    }
+
+        @mixin text-preset-3 {
+        font-family: $font-family;
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 135%;
+        letter-spacing: 0rem;
+        color: $grey-500;
+    }
+
+        @mixin text-preset-4 {
+        font-family: $font-family;
+        font-size: 0.938rem;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0rem;
+        color: $grey-500;
+    }
+
+        @mixin text-preset-5 {
+        font-family: $font-family;
+        font-size: 0.813rem;
+        font-weight: 400;
+        line-height: 160%;
+        letter-spacing: 0rem;
+        color: $grey-500;
     }
