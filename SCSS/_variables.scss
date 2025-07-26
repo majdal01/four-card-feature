@@ -1,65 +1,64 @@
-    /* Color Variables */
-    $grey-500: hsl(234, 12%, 34%);
-    $grey-400: hsl(212, 6%, 44%);
-    $white: hsl(0, 0%, 100%);
-    $red: hsl(0, 78%, 62%);
-    $cyan: hsl(180, 62%, 55%);
-    $blue: hsl(212, 86%, 64%);
-    $orange: hsl(34, 97%, 64%);
+// Color Variables
+$grey-500: hsl(234, 12%, 34%);
+$grey-400: hsl(212, 6%, 44%);
+$white: hsl(0, 0%, 100%);
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$blue: hsl(212, 86%, 64%);
+$orange: hsl(34, 97%, 64%);
 
-    /* Font Variables */
-    $font-family: 'Poppins', sans-serif;
+// Font Variables
+$font-family: 'Poppins', sans-serif;
 
-    /* Spacer Variables */
-    $space-500: 2.5rem;
-    $space-400: 2rem;
-    $space-300: 1.5rem;
-    $space-200: 1rem;
-    $space-100: 0.5rem;
+// Spacer Variables
+$space-500: 2.5rem;
+$space-400: 2rem;
+$space-300: 1.5rem;
+$space-200: 1rem;
+$space-100: 0.5rem;
 
-    /* Mixins */
+// Mixins
+@mixin text-preset-1 {
+    font-family: $font-family;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.0016rem;
+    color: $grey-500;
+}
 
-    @mixin text-preset-1 {
-        font-family: $font-family;
-        font-size: 2.25rem;
-        font-weight: 600;
-        line-height: 140%;
-        letter-spacing: 0.0016rem;
-        color: $grey-500;
-    }
+@mixin text-preset-2 {
+    font-family: $font-family;
+    font-size: 2.25rem;
+    font-weight: 200;
+    line-height: 140%;
+    letter-spacing: 0.0016rem;
+    color: $grey-500;
+}
 
-        @mixin text-preset-2 {
-        font-family: $font-family;
-        font-size: 2.25rem;
-        font-weight: 200;
-        line-height: 140%;
-        letter-spacing: 0.0016rem;
-        color: $grey-500;
-    }
+@mixin text-preset-3 {
+    font-family: $font-family;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 135%;
+    letter-spacing: 0rem;
+    color: $grey-500;
+}
 
-        @mixin text-preset-3 {
-        font-family: $font-family;
-        font-size: 1.25rem;
-        font-weight: 600;
-        line-height: 135%;
-        letter-spacing: 0rem;
-        color: $grey-500;
-    }
+@mixin text-preset-4 {
+    font-family: $font-family;
+    font-size: 0.938rem;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0rem;
+    color: $grey-500;
+}
 
-        @mixin text-preset-4 {
-        font-family: $font-family;
-        font-size: 0.938rem;
-        font-weight: 400;
-        line-height: 140%;
-        letter-spacing: 0rem;
-        color: $grey-500;
-    }
-
-        @mixin text-preset-5 {
-        font-family: $font-family;
-        font-size: 0.813rem;
-        font-weight: 400;
-        line-height: 160%;
-        letter-spacing: 0rem;
-        color: $grey-500;
-    }
+@mixin text-preset-5 {
+    font-family: $font-family;
+    font-size: 0.813rem;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0rem;
+    color: $grey-500;
+}
