@@ -73,6 +73,7 @@ img {
   height: 15.625rem;
   padding: 2rem;
   border-top: 4px solid;
+  border-radius: 0.5rem;
   box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
 }
 
