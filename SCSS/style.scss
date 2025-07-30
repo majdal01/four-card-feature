@@ -42,7 +42,16 @@ p {
     color: $grey-500;
 }
 
+img {
+    height: auto;
+    width: 4rem;
+    align-self: flex-end;
+    margin-top: $space-400;
+}
+
 .card {
+    display: flex;
+    flex-direction: column;
     width: 21.875rem; // 350px
     height: 15.625rem; // 250px
     padding: $space-400;
@@ -53,4 +62,32 @@ p {
 .card-text {
     @include text-preset-5;
     color: $grey-400;
+    margin-top: 0.375rem;
+}
+
+.green-card {
+    border-color: $cyan;
+    grid-area: 2 / 1 / 4 / 2; 
+}
+
+.red-card {
+    border-color: $red;
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.yellow-card {
+    border-color: $orange;
+    grid-area: 3 / 2 / 5 / 3;
+}
+
+.blue-card {
+    border-color: $blue;
+    grid-area: 2 / 3 / 4 / 4;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto); 
+    gap: $space-400;
 }
