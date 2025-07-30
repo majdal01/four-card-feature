@@ -13,12 +13,12 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    margin-top: 5rem;;
 }
 
 .top-container {
     max-width: 34rem;
     text-align: center;
+    margin: 5rem 0;
 }
 
 h1 {
@@ -32,7 +32,25 @@ h2 {
     padding-bottom: $space-200;
 }
 
+h3 {
+    @include text-preset-3;
+    color: $grey-500;
+}
+
 p {
     @include text-preset-4;
     color: $grey-500;
+}
+
+.card {
+    width: 21.875rem; // 350px
+    height: 15.625rem; // 250px
+    padding: $space-400;
+    border-top: 4px solid;
+    box-shadow: 
+}
+
+.card-text {
+    @include text-preset-5;
+    color: $grey-400;
 }
