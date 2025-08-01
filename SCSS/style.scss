@@ -127,5 +127,12 @@ img {
         display: flex;
         flex-direction: column;
     }
+
+    h1 {
+        @include mobile-text-preset-2;
+    }
+    h2 {
+        @include mobile-text-preset-1;
+    }
     
 }
