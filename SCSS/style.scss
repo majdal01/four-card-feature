@@ -120,3 +120,12 @@ img {
     }
 
 }
+
+@media (max-width: 375px) {
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

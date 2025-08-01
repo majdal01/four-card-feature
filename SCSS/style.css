@@ -133,4 +133,10 @@ img {
   .blue-card {
     grid-area: 3/2/4/4;
   }
+}
+@media (max-width: 375px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
