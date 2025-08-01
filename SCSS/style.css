@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+  padding: 1rem;
 }
 
 .top-container {
@@ -69,7 +70,7 @@ img {
 .card {
   display: flex;
   flex-direction: column;
-  width: 21.875rem;
+  max-width: 21.875rem;
   height: 15.625rem;
   padding: 2rem;
   border-top: 4px solid;
@@ -113,4 +114,23 @@ img {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, auto);
   gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .green-card {
+    grid-area: 1/2/2/4;
+  }
+  .red-card {
+    grid-area: 2/1/3/3;
+  }
+  .yellow-card {
+    grid-area: 2/3/3/5;
+  }
+  .blue-card {
+    grid-area: 3/2/4/4;
+  }
 }/*# sourceMappingURL=style.css.map */
